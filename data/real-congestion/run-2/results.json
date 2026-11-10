@@ -1,0 +1,542 @@
+{
+ "controls": [
+  {
+   "t0": 1793173915.812153,
+   "t1": 1793173976.022653,
+   "spurious_triggers": 0,
+   "moves": 0
+  },
+  {
+   "t0": 1793173976.566903,
+   "t1": 1793174036.757547,
+   "spurious_triggers": 0,
+   "moves": 0
+  },
+  {
+   "t0": 1793174037.2998564,
+   "t1": 1793174097.5439975,
+   "spurious_triggers": 0,
+   "moves": 0
+  },
+  {
+   "t0": 1793174098.1276004,
+   "t1": 1793174158.3957388,
+   "spurious_triggers": 0,
+   "moves": 0
+  },
+  {
+   "t0": 1793174164.0672987,
+   "t1": 1793174224.35976,
+   "spurious_triggers": 0,
+   "moves": 0
+  }
+ ],
+ "rounds": [
+  {
+   "round": 1,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 150,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 45.9,
+    "lat_p90_ms": 59.5,
+    "unanswered_pct": 0.0,
+    "fps": 11.91,
+    "incomplete_pct": 0.3
+   },
+   "B_edge_congested": {
+    "polls": 91,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 3,
+    "p90_ms_median": 117.0,
+    "median_ms_median": 73.8,
+    "loss_pct_median": 30.0
+   },
+   "C_vehicle": {
+    "polls": 151,
+    "served_by": [
+     "http://10.48.0.27:9000"
+    ],
+    "lat_med_ms": 3.9,
+    "lat_p90_ms": 7.0,
+    "unanswered_pct": 0.0,
+    "fps": 6.22,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 6.5,
+   "load_to_degraded_s": 19.3,
+   "freeze_s": 1.02,
+   "frames_lost": null,
+   "procedure_s": 18.5,
+   "load_to_relocated_s": 43.7
+  },
+  {
+   "round": 2,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 151,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 44.8,
+    "lat_p90_ms": 60.5,
+    "unanswered_pct": 0.0,
+    "fps": 11.93,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 102,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 170.0,
+    "median_ms_median": 62.35,
+    "loss_pct_median": 10.0
+   },
+   "C_vehicle": {
+    "polls": 151,
+    "served_by": [
+     "http://10.48.0.28:9000"
+    ],
+    "lat_med_ms": 3.4,
+    "lat_p90_ms": 6.3,
+    "unanswered_pct": 0.0,
+    "fps": 6.42,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 6.7,
+   "load_to_degraded_s": 23.0,
+   "freeze_s": 1.08,
+   "frames_lost": 14,
+   "procedure_s": 15.7,
+   "load_to_relocated_s": 43.3
+  },
+  {
+   "round": 3,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 151,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 46.2,
+    "lat_p90_ms": 59.9,
+    "unanswered_pct": 0.0,
+    "fps": 11.96,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 82,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 171.5,
+    "median_ms_median": 121.85,
+    "loss_pct_median": 20.0
+   },
+   "C_vehicle": {
+    "polls": 151,
+    "served_by": [
+     "http://10.48.0.29:9000"
+    ],
+    "lat_med_ms": 3.8,
+    "lat_p90_ms": 6.8,
+    "unanswered_pct": 0.0,
+    "fps": 6.46,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 5.4,
+   "load_to_degraded_s": 15.0,
+   "freeze_s": 1.16,
+   "frames_lost": null,
+   "procedure_s": 20.7,
+   "load_to_relocated_s": 43.5
+  },
+  {
+   "round": 4,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 151,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 46.1,
+    "lat_p90_ms": 58.7,
+    "unanswered_pct": 0.0,
+    "fps": 11.89,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 133,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 192.5,
+    "median_ms_median": 33.05,
+    "loss_pct_median": 20.0
+   },
+   "C_vehicle": {
+    "polls": 151,
+    "served_by": [
+     "http://10.48.0.30:9000"
+    ],
+    "lat_med_ms": 3.5,
+    "lat_p90_ms": 6.1,
+    "unanswered_pct": 0.0,
+    "fps": 6.46,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 21.5,
+   "load_to_degraded_s": 29.8,
+   "freeze_s": 1.0,
+   "frames_lost": 12,
+   "procedure_s": 15.5,
+   "load_to_relocated_s": 49.3
+  },
+  {
+   "round": 5,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 151,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 47.6,
+    "lat_p90_ms": 59.9,
+    "unanswered_pct": 0.0,
+    "fps": 11.96,
+    "incomplete_pct": 0.3
+   },
+   "B_edge_congested": {
+    "polls": 104,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 193.0,
+    "median_ms_median": 87.05,
+    "loss_pct_median": 25.0
+   },
+   "C_vehicle": {
+    "polls": 152,
+    "served_by": [
+     "http://10.48.0.31:9000"
+    ],
+    "lat_med_ms": 3.6,
+    "lat_p90_ms": 6.1,
+    "unanswered_pct": 0.0,
+    "fps": 6.45,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 5.1,
+   "load_to_degraded_s": 23.9,
+   "freeze_s": 1.06,
+   "frames_lost": 15,
+   "procedure_s": 16.4,
+   "load_to_relocated_s": 44.1
+  },
+  {
+   "round": 6,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 151,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 45.7,
+    "lat_p90_ms": 58.2,
+    "unanswered_pct": 0.0,
+    "fps": 11.96,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 76,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 119.35,
+    "median_ms_median": 95.85,
+    "loss_pct_median": 35.0
+   },
+   "C_vehicle": {
+    "polls": 151,
+    "served_by": [
+     "http://10.48.0.32:9000"
+    ],
+    "lat_med_ms": 3.7,
+    "lat_p90_ms": 7.3,
+    "unanswered_pct": 0.0,
+    "fps": 6.35,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 6.8,
+   "load_to_degraded_s": 17.5,
+   "freeze_s": 0.96,
+   "frames_lost": null,
+   "procedure_s": 14.3,
+   "load_to_relocated_s": 35.6
+  },
+  {
+   "round": 7,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 152,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 45.6,
+    "lat_p90_ms": 59.2,
+    "unanswered_pct": 0.0,
+    "fps": 11.95,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 145,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 109.15,
+    "median_ms_median": 50.65,
+    "loss_pct_median": 15.0
+   },
+   "C_vehicle": {
+    "polls": 152,
+    "served_by": [
+     "http://10.48.0.33:9000"
+    ],
+    "lat_med_ms": 3.8,
+    "lat_p90_ms": 7.0,
+    "unanswered_pct": 0.0,
+    "fps": 6.51,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 3.5,
+   "load_to_degraded_s": 20.1,
+   "freeze_s": 1.03,
+   "frames_lost": 14,
+   "procedure_s": 17.6,
+   "load_to_relocated_s": 53.8
+  },
+  {
+   "round": 8,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 152,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 47.65,
+    "lat_p90_ms": 63.6,
+    "unanswered_pct": 0.0,
+    "fps": 11.91,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 73,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 146.5,
+    "median_ms_median": 51.949999999999996,
+    "loss_pct_median": 30.0
+   },
+   "C_vehicle": {
+    "polls": 152,
+    "served_by": [
+     "http://10.48.0.34:9000"
+    ],
+    "lat_med_ms": 3.5,
+    "lat_p90_ms": 7.0,
+    "unanswered_pct": 0.0,
+    "fps": 6.48,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 5.6,
+   "load_to_degraded_s": 17.1,
+   "freeze_s": 1.0,
+   "frames_lost": null,
+   "procedure_s": 18.7,
+   "load_to_relocated_s": 39.7
+  },
+  {
+   "round": 9,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 152,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 46.099999999999994,
+    "lat_p90_ms": 60.7,
+    "unanswered_pct": 0.0,
+    "fps": 11.95,
+    "incomplete_pct": 0.0
+   },
+   "B_edge_congested": {
+    "polls": 104,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 133.35,
+    "median_ms_median": 53.2,
+    "loss_pct_median": 30.0
+   },
+   "C_vehicle": {
+    "polls": 152,
+    "served_by": [
+     "http://10.48.0.35:9000"
+    ],
+    "lat_med_ms": 3.6,
+    "lat_p90_ms": 7.4,
+    "unanswered_pct": 0.0,
+    "fps": 6.44,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 7.1,
+   "load_to_degraded_s": 22.8,
+   "freeze_s": 1.08,
+   "frames_lost": 16,
+   "procedure_s": 15.9,
+   "load_to_relocated_s": 43.4
+  },
+  {
+   "round": 10,
+   "success": true,
+   "A_edge_healthy": {
+    "polls": 152,
+    "served_by": [
+     "http://10.220.2.244:9000"
+    ],
+    "lat_med_ms": 43.400000000000006,
+    "lat_p90_ms": 59.0,
+    "unanswered_pct": 0.0,
+    "fps": 11.78,
+    "incomplete_pct": 0.6
+   },
+   "B_edge_congested": {
+    "polls": 71,
+    "served_by": [],
+    "lat_med_ms": null,
+    "lat_p90_ms": null,
+    "unanswered_pct": 100.0,
+    "fps": null,
+    "incomplete_pct": null
+   },
+   "B_network_rtt_vehicle_to_edge": {
+    "samples": 2,
+    "p90_ms_median": 152.5,
+    "median_ms_median": 81.3,
+    "loss_pct_median": 25.0
+   },
+   "C_vehicle": {
+    "polls": 152,
+    "served_by": [
+     "http://10.48.0.36:9000"
+    ],
+    "lat_med_ms": 3.3499999999999996,
+    "lat_p90_ms": 6.5,
+    "unanswered_pct": 0.0,
+    "fps": 6.51,
+    "incomplete_pct": 0.0
+   },
+   "load_to_first_bad_s": 4.8,
+   "load_to_degraded_s": 14.8,
+   "freeze_s": 0.93,
+   "frames_lost": 19,
+   "procedure_s": 14.5,
+   "load_to_relocated_s": 34.9
+  }
+ ],
+ "summary": {
+  "success": "10/10",
+  "spurious triggers in controls": 0,
+  "detection (load on -> degraded) median s": 19.7,
+  "freeze median s": 1.02,
+  "load on -> relocated median s": 43.45,
+  "latency median/p90 ms  A edge healthy": [
+   46.0,
+   59.7
+  ],
+  "latency median/p90 ms  B edge congested": [
+   null,
+   null
+  ],
+  "latency median/p90 ms  C vehicle": [
+   3.6,
+   6.9
+  ],
+  "unanswered %  A/B/C": [
+   0.0,
+   100.0,
+   0.0
+  ],
+  "FPS  A/B/C": [
+   11.94,
+   null,
+   6.46
+  ],
+  "B network RTT vehicle->edge over 5G, median of samples: median/p90 ms, loss %": [
+   68.08,
+   149.5,
+   25.0
+  ],
+  "latency gain p90, congested edge (>=160 ms) -> vehicle": ">= 96%",
+  "latency gain p90, healthy edge -> vehicle (for reference)": "88%"
+ }
+}
