@@ -1,0 +1,26 @@
+[
+ {
+  "time_utc": "2026-10-26 21:48:02,240",
+  "to": "edge",
+  "reason": "edge 100% green (vehicle 34%) and pQoS OK",
+  "source": "backend log (in-memory records lost on a reload)"
+ },
+ {
+  "time_utc": "2026-10-26 21:54:51,570",
+  "to": "vehicle",
+  "reason": "QoD could not keep the edge usable (FPS 10.6",
+  "source": "backend log (in-memory records lost on a reload)"
+ },
+ {
+  "time_utc": "2026-10-26 21:56:53,162",
+  "to": "edge",
+  "reason": "edge 100% green (vehicle 34%) and pQoS OK",
+  "source": "backend log (in-memory records lost on a reload)"
+ },
+ {
+  "time_utc": "2026-10-26 21:57:53,864",
+  "to": "vehicle",
+  "reason": "edge only 24% green (vehicle 34%)",
+  "source": "backend log (in-memory records lost on a reload)"
+ }
+]

@@ -1,0 +1,3 @@
+round,procedure_id,source,target,target_given,state,decision,t_trigger,t_initiated,trigger_to_initiated_s,migration_s
+1,551ada56-2f7b-4b68-adcb-01987e43c307,drift-edge-1,drift-edge-2,True,TRANSFERRING,cross_cluster,1794852356.608729,1794852363.591578,6.983,0.0
+2,8a6db0aa-3c8c-41f5-a7fa-c063f5a2625f,drift-edge-1,drift-edge-2,True,FAILED,cross_cluster,1794852671.05578,1794852677.972753,6.917,0.0

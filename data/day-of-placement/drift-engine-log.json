@@ -1,0 +1,38 @@
+[
+ {
+  "time_utc": "2026-10-26 21:39:24,588",
+  "msg": "autopilot on"
+ },
+ {
+  "time_utc": "2026-10-26 21:48:02,240",
+  "msg": "edge 100% green (vehicle 34%) and pQoS OK -> migrating YOLO to the edge"
+ },
+ {
+  "time_utc": "2026-10-26 21:54:37,859",
+  "msg": "pQoS degradation lever on"
+ },
+ {
+  "time_utc": "2026-10-26 21:54:39,313",
+  "msg": "pQoS degradation (lever) on the edge -> QoD QOS_L requested, checking the stream for 10 s"
+ },
+ {
+  "time_utc": "2026-10-26 21:54:51,165",
+  "msg": "QoD QOS_L released (it did not hold the stream: FPS 10.6 -> 2.1, incomplete frames 4%)"
+ },
+ {
+  "time_utc": "2026-10-26 21:54:51,570",
+  "msg": "QoD could not keep the edge usable (FPS 10.6 -> 2.1, incomplete frames 4%) -> migrating YOLO to the vehicle"
+ },
+ {
+  "time_utc": "2026-10-26 21:56:47,859",
+  "msg": "pQoS degradation lever off"
+ },
+ {
+  "time_utc": "2026-10-26 21:56:53,162",
+  "msg": "edge 100% green (vehicle 34%) and pQoS OK -> migrating YOLO to the edge"
+ },
+ {
+  "time_utc": "2026-10-26 21:57:53,864",
+  "msg": "edge only 24% green (vehicle 34%) -> migrating YOLO to the vehicle"
+ }
+]

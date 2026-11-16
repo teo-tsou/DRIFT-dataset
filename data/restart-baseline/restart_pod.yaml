@@ -1,0 +1,27 @@
+# Restart baseline: a fresh instance of the same YOLO receiver (same image, env),
+# started the way a restart-based relocation would start it on its target.
+# cpu request lowered to 1 only so it schedules next to the idle original pod.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: emt-yolo-restart
+  namespace: default
+spec:
+  restartPolicy: Never
+  containers:
+  - name: holder
+    image: docker.io/library/python:3-slim
+    imagePullPolicy: IfNotPresent
+    command: ["sleep", "infinity"]
+  - name: work
+    image: localhost/drift-emt-yolo:udp
+    imagePullPolicy: IfNotPresent
+    command: ["python3", "/app/drift_receiver.py"]
+    env:
+    - { name: INFER_THREADS, value: "8" }
+    - { name: INFER_SPIN, value: "0" }
+    - { name: DETECTIONS_LOG, value: "0" }
+    - { name: MALLOC_MMAP_THRESHOLD_, value: "65536" }
+    - { name: HOME, value: /dev/null }
+    resources:
+      requests: { cpu: "1", memory: "1Gi" }

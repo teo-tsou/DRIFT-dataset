@@ -1,0 +1,5 @@
+when,direction,migration_id,status,compute_mode,freeze_s,image_mib,transfer_s,image_mbit_s,wire_mib,gap_s,frames_lost,fps_after
+2026-10-20 23:37:43,nano->orin,7d9071e4-4c8c-4468-ab0f-d230f0f352ea,completed,blocking+bulk,5.4,63.8,2.5,213.6,2.36,6.372,75,10.96
+2026-10-20 23:39:20,orin->nano,712717e3-88bb-431c-b3ed-a66606b40f12,completed,blocking+bulk,3.28,63.8,1.3,403.2,1.90,4.686,55,5.8
+2026-10-20 23:40:48,nano->orin,df6df3d2-13f3-4937-ad25-fad2ebfb3abf,completed,blocking+bulk,5.2,63.8,2.3,232.0,2.04,5.999,71,10.72
+2026-10-20 23:42:08,orin->nano,8e054347-e97d-4c23-9494-1eb3f83d5f03,completed,blocking+bulk,3.57,65.3,1.5,356.7,2.23,4.906,58,5.93

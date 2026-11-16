@@ -1,0 +1,11 @@
+call,when_utc,source_cluster,preferred_cluster,selection_ms,decision
+1,2026-11-16T18:27:52.789,drift-edge-2,,621.231,stay
+2,2026-11-16T18:27:56.531,drift-edge-2,,314.973,stay
+3,2026-11-16T18:27:59.943,drift-edge-2,,335.586,stay
+4,2026-11-16T18:28:03.376,drift-edge-2,,493.333,stay
+5,2026-11-16T18:28:06.957,drift-edge-2,,318.343,stay
+6,2026-11-16T18:28:10.373,drift-edge-2,,394.213,stay
+7,2026-11-16T18:28:13.838,drift-edge-2,,370.642,stay
+8,2026-11-16T18:28:17.306,drift-edge-2,,323.974,stay
+9,2026-11-16T18:28:20.732,drift-edge-2,,333.023,stay
+10,2026-11-16T18:28:24.159,drift-edge-2,,330.899,stay

@@ -1,0 +1,15 @@
+{
+ "source": "ECB getEVGreenness API (/v1/getEVGreenness?date=), GET",
+ "fetched_utc": "2026-11-16",
+ "note": "Renewable share of the energy stored at the EV's last charge (Tesla Model 3). 2026-10-26 is the replay day (0.338 in day-of-placement); 2026-10-31 is the day of Figure 3. Household production and consumption, also returned by the API, are omitted.",
+ "by_date": {
+  "2026-10-26": {
+   "EV_residual_energy_kwh": 33.939999241381884,
+   "EV_greenness_percentage": 33.76336197272672
+  },
+  "2026-10-31": {
+   "EV_residual_energy_kwh": 38.359999142587185,
+   "EV_greenness_percentage": 26.760053295633263
+  }
+ }
+}

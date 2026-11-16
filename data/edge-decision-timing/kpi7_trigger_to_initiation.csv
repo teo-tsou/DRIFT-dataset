@@ -1,0 +1,11 @@
+round,procedure_id,source,target,target_given,state,decision,t_trigger,t_initiated,trigger_to_initiated_s,migration_s
+1,082ff054-30d6-4e92-871f-8ab4998154bf,drift-edge-2,drift-edge-1,True,COMPLETED,cross_cluster,1794853434.351247,1794853434.894584,0.543,8.47
+2,37b32dbc-e9e8-424c-9dea-3501977af0c8,drift-edge-1,drift-edge-2,True,COMPLETED,cross_cluster,1794853457.588303,1794853458.208666,0.62,7.46
+3,8b5e4281-8d3f-4422-bbc9-2d609536f965,drift-edge-2,drift-edge-1,True,COMPLETED,cross_cluster,1794853479.964656,1794853480.494684,0.53,7.45
+4,073df3d6-457e-4f9e-a8af-409ef3359d26,drift-edge-1,drift-edge-2,True,COMPLETED,cross_cluster,1794853502.255227,1794853502.84561,0.59,7.46
+5,c9456464-acb4-4726-93e4-d873b7066259,drift-edge-2,drift-edge-1,True,COMPLETED,cross_cluster,1794853524.786368,1794853525.424588,0.638,8.47
+6,b10b6275-cc6a-4807-a7d0-99b06a65c5ef,drift-edge-1,drift-edge-2,True,COMPLETED,cross_cluster,1794853548.022017,1794853548.571733,0.55,7.42
+7,5687c1ab-b696-4fd0-b5d9-91c29fab24c6,drift-edge-2,drift-edge-1,True,COMPLETED,cross_cluster,1794853570.304344,1794853570.875169,0.571,7.44
+8,8e9be548-f22c-4543-a782-088092cd3ba1,drift-edge-1,drift-edge-2,True,COMPLETED,cross_cluster,1794853592.53211,1794853593.030992,0.499,8.48
+9,dc481c0a-7d59-4f97-bc9b-3aaa55ba1ffb,drift-edge-2,drift-edge-1,True,COMPLETED,cross_cluster,1794853616.023849,1794853616.61768,0.594,8.45
+10,abe4398c-a426-48d0-b8e4-ac5edeae3893,drift-edge-1,drift-edge-2,True,COMPLETED,cross_cluster,1794853639.321524,1794853639.915919,0.594,7.42

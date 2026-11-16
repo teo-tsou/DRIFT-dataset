@@ -1,0 +1,40 @@
+[
+ {
+  "id": "dbd97f78-9388-4800-ba6f-495350ee6bf4",
+  "from": "edge",
+  "to": "vehicle",
+  "phase": "completed",
+  "completed": true,
+  "failed": false,
+  "mode": "blocking+bulk",
+  "freeze_s": 0.96,
+  "started_at": 1793050308.4475791,
+  "finished_at": 1793050314.7832177,
+  "transfer": "delta",
+  "image_mib": 54.4,
+  "transfer_s": 0.28,
+  "wire_mib": 0.62,
+  "stall_s": 1.163,
+  "frames_lost": 13,
+  "error": null
+ },
+ {
+  "id": "75bab598-a059-46a6-8346-4b6791b828c8",
+  "from": "vehicle",
+  "to": "edge",
+  "phase": "completed",
+  "completed": true,
+  "failed": false,
+  "mode": "blocking+bulk",
+  "freeze_s": 1.3,
+  "started_at": 1793049722.478097,
+  "finished_at": 1793049730.0433862,
+  "transfer": "delta",
+  "image_mib": 54.3,
+  "transfer_s": 0.54,
+  "wire_mib": 0.58,
+  "stall_s": 1.451,
+  "frames_lost": 16,
+  "error": null
+ }
+]
